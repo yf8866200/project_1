@@ -1,0 +1,22 @@
+#忽略所有 .a的文件
+*.a
+
+
+#！取反，会跟着lib.a 即便你前面忽略了所以.a文件
+!lib.a
+
+#忽略test.css文件
+test.css
+
+#只忽略当前目录下的dir文件 其他文件夹中的dir文件不忽略
+/dir
+
+#忽略任何目录下名为build文件夹里的
+build/
+
+#忽略doc/1.txt  但不忽略子文件夹里的1.txt
+doc/1.txt
+
+#忽略doc/目录以及所以子目录下的 2.txt
+doc/**/1.txt
+
